@@ -1,0 +1,105 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Página-1" id="2I-6-aamAapaW2vDlNQJ">
+    <mxGraphModel dx="1241" dy="677" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="FuwagrKWle1uRroA0PVG-20" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="User" vertex="1">
+          <mxGeometry height="806" width="330" x="40" y="20" as="geometry">
+            <mxRectangle height="30" width="70" x="60" y="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FuwagrKWle1uRroA0PVG-21" parent="FuwagrKWle1uRroA0PVG-20" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="-&amp;nbsp; id: ?int" vertex="1">
+          <mxGeometry height="26" width="330" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="FuwagrKWle1uRroA0PVG-23" parent="FuwagrKWle1uRroA0PVG-20" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;div&gt;- name: string&lt;/div&gt;" vertex="1">
+          <mxGeometry height="26" width="330" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="FuwagrKWle1uRroA0PVG-34" parent="FuwagrKWle1uRroA0PVG-20" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;div&gt;- email: string&lt;/div&gt;" vertex="1">
+          <mxGeometry height="26" width="330" y="78" as="geometry" />
+        </mxCell>
+        <mxCell id="FuwagrKWle1uRroA0PVG-35" parent="FuwagrKWle1uRroA0PVG-20" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;div&gt;- passwdHash: string&lt;/div&gt;" vertex="1">
+          <mxGeometry height="26" width="330" y="104" as="geometry" />
+        </mxCell>
+        <mxCell id="FuwagrKWle1uRroA0PVG-36" parent="FuwagrKWle1uRroA0PVG-20" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;div&gt;- administrator: bool&lt;/div&gt;" vertex="1">
+          <mxGeometry height="26" width="330" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="FuwagrKWle1uRroA0PVG-37" parent="FuwagrKWle1uRroA0PVG-20" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;div&gt;- activeUser: bool&lt;/div&gt;" vertex="1">
+          <mxGeometry height="26" width="330" y="156" as="geometry" />
+        </mxCell>
+        <mxCell id="FuwagrKWle1uRroA0PVG-38" parent="FuwagrKWle1uRroA0PVG-20" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;div&gt;- lastLogin: ?DateTime&lt;/div&gt;" vertex="1">
+          <mxGeometry height="26" width="330" y="182" as="geometry" />
+        </mxCell>
+        <mxCell id="FuwagrKWle1uRroA0PVG-39" parent="FuwagrKWle1uRroA0PVG-20" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;div&gt;- createdAt: DateTime&lt;/div&gt;" vertex="1">
+          <mxGeometry height="26" width="330" y="208" as="geometry" />
+        </mxCell>
+        <mxCell id="FuwagrKWle1uRroA0PVG-40" parent="FuwagrKWle1uRroA0PVG-20" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;div&gt;- updatedAt: DateTime&lt;/div&gt;" vertex="1">
+          <mxGeometry height="26" width="330" y="234" as="geometry" />
+        </mxCell>
+        <mxCell id="FuwagrKWle1uRroA0PVG-50" parent="FuwagrKWle1uRroA0PVG-20" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;div&gt;+ create(name: string, email:string, password:string): User&amp;nbsp;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="26" width="330" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="FuwagrKWle1uRroA0PVG-54" parent="FuwagrKWle1uRroA0PVG-20" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;div&gt;+ fromDatabse(data: array): User&lt;/div&gt;" vertex="1">
+          <mxGeometry height="26" width="330" y="286" as="geometry" />
+        </mxCell>
+        <mxCell id="FuwagrKWle1uRroA0PVG-55" parent="FuwagrKWle1uRroA0PVG-20" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;div&gt;+ getId: ?int&lt;/div&gt;" vertex="1">
+          <mxGeometry height="26" width="330" y="312" as="geometry" />
+        </mxCell>
+        <mxCell id="FuwagrKWle1uRroA0PVG-56" parent="FuwagrKWle1uRroA0PVG-20" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;div&gt;+ getName: string&lt;/div&gt;" vertex="1">
+          <mxGeometry height="26" width="330" y="338" as="geometry" />
+        </mxCell>
+        <mxCell id="FuwagrKWle1uRroA0PVG-57" parent="FuwagrKWle1uRroA0PVG-20" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;div&gt;+ getEmail: string&lt;/div&gt;" vertex="1">
+          <mxGeometry height="26" width="330" y="364" as="geometry" />
+        </mxCell>
+        <mxCell id="FuwagrKWle1uRroA0PVG-58" parent="FuwagrKWle1uRroA0PVG-20" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;div&gt;+ isAdministrator: bool&lt;/div&gt;" vertex="1">
+          <mxGeometry height="26" width="330" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="FuwagrKWle1uRroA0PVG-59" parent="FuwagrKWle1uRroA0PVG-20" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;div&gt;+ isActive: bool&lt;/div&gt;" vertex="1">
+          <mxGeometry height="26" width="330" y="416" as="geometry" />
+        </mxCell>
+        <mxCell id="FuwagrKWle1uRroA0PVG-60" parent="FuwagrKWle1uRroA0PVG-20" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;div&gt;+ getLastLogin: ?DateTime&lt;/div&gt;" vertex="1">
+          <mxGeometry height="26" width="330" y="442" as="geometry" />
+        </mxCell>
+        <mxCell id="FuwagrKWle1uRroA0PVG-61" parent="FuwagrKWle1uRroA0PVG-20" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;div&gt;+ getLastLogin: DateTime&lt;/div&gt;" vertex="1">
+          <mxGeometry height="26" width="330" y="468" as="geometry" />
+        </mxCell>
+        <mxCell id="FuwagrKWle1uRroA0PVG-62" parent="FuwagrKWle1uRroA0PVG-20" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;div&gt;+ getCreatedAt: DateTime&lt;/div&gt;" vertex="1">
+          <mxGeometry height="26" width="330" y="494" as="geometry" />
+        </mxCell>
+        <mxCell id="FuwagrKWle1uRroA0PVG-63" parent="FuwagrKWle1uRroA0PVG-20" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;div&gt;+ getUpdatedAt: DateTime&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="26" width="330" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="FuwagrKWle1uRroA0PVG-64" parent="FuwagrKWle1uRroA0PVG-20" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;div&gt;+ setName: void&lt;/div&gt;" vertex="1">
+          <mxGeometry height="26" width="330" y="546" as="geometry" />
+        </mxCell>
+        <mxCell id="FuwagrKWle1uRroA0PVG-65" parent="FuwagrKWle1uRroA0PVG-20" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;div&gt;+ setEmail: void&lt;/div&gt;" vertex="1">
+          <mxGeometry height="26" width="330" y="572" as="geometry" />
+        </mxCell>
+        <mxCell id="FuwagrKWle1uRroA0PVG-66" parent="FuwagrKWle1uRroA0PVG-20" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;div&gt;+ changePassword: void&lt;/div&gt;" vertex="1">
+          <mxGeometry height="26" width="330" y="598" as="geometry" />
+        </mxCell>
+        <mxCell id="FuwagrKWle1uRroA0PVG-67" parent="FuwagrKWle1uRroA0PVG-20" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;div&gt;+ verifyPassword: bool&lt;/div&gt;" vertex="1">
+          <mxGeometry height="26" width="330" y="624" as="geometry" />
+        </mxCell>
+        <mxCell id="FuwagrKWle1uRroA0PVG-68" parent="FuwagrKWle1uRroA0PVG-20" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;div&gt;+ activeUser: void&lt;/div&gt;" vertex="1">
+          <mxGeometry height="26" width="330" y="650" as="geometry" />
+        </mxCell>
+        <mxCell id="FuwagrKWle1uRroA0PVG-69" parent="FuwagrKWle1uRroA0PVG-20" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;div&gt;+ deactiveUser: void&lt;/div&gt;" vertex="1">
+          <mxGeometry height="26" width="330" y="676" as="geometry" />
+        </mxCell>
+        <mxCell id="FuwagrKWle1uRroA0PVG-70" parent="FuwagrKWle1uRroA0PVG-20" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;div&gt;+ grantAdministrator: void&lt;/div&gt;" vertex="1">
+          <mxGeometry height="26" width="330" y="702" as="geometry" />
+        </mxCell>
+        <mxCell id="FuwagrKWle1uRroA0PVG-71" parent="FuwagrKWle1uRroA0PVG-20" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;div&gt;+ revokeAdministrator: void&lt;/div&gt;" vertex="1">
+          <mxGeometry height="26" width="330" y="728" as="geometry" />
+        </mxCell>
+        <mxCell id="FuwagrKWle1uRroA0PVG-72" parent="FuwagrKWle1uRroA0PVG-20" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;div&gt;+ registerLogin: void&lt;/div&gt;" vertex="1">
+          <mxGeometry height="26" width="330" y="754" as="geometry" />
+        </mxCell>
+        <mxCell id="FuwagrKWle1uRroA0PVG-73" parent="FuwagrKWle1uRroA0PVG-20" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;div&gt;+ touch: void&lt;/div&gt;" vertex="1">
+          <mxGeometry height="26" width="330" y="780" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
